@@ -1,0 +1,44 @@
+type: PowerTurret
+health: 1250
+size: 2
+category: turret
+research: beam-LT
+requirements: [
+lead/180
+graphite/130
+silicon/90
+titanium/120
+thorium/90
+plastanium/65
+]
+range: 180
+chargeTime: 20
+chargeMaxDelay: 10
+chargeEffects: 7
+recoilAmount: 3
+reloadTime: 20
+powerUse: 9
+shootShake: 2
+shootEffect: lancerLaserShoot
+smokeEffect: none
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: FF8900
+targetGround: true
+targetAir: true
+shootSound: laser
+shootType: {
+type: LaserBulletType
+length: 250
+colors: ["FFF300", "FFF000", FFFFFF"]
+hitEffect: hitLancer
+despawnEffect: none
+hitSize: 4
+lifetime: 24
+drawSize: 400
+damage: 100
+collidesAir: true
+}
+shots: 2
+alternate: true
+shootCone: 40

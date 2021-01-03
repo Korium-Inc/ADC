@@ -1,0 +1,12 @@
+type: LightBlock
+health: 560
+size: 4
+brightness: 2
+radius: 500
+requirements: [
+graphite/150
+silicon/100
+titanium/80
+]
+category: effect
+research: illuminator

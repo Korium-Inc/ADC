@@ -1,0 +1,6 @@
+name: "additional-content"
+description: "[yellow]Adds new crafters for vanilla items, new power generators, turrets, drills and one multi-wall[]"
+displayName: "[white]Additional Content[]"
+author: "[green]Snake[]"
+minGameVersion: "122"
+version: "3.5"

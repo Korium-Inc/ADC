@@ -1,0 +1,21 @@
+type: GenericCrafter
+health: 230
+craftTime: 80
+outputItem: ice-cube/5
+itemCapacity: 20
+craftEffect: smeltsmoke
+hasPower: true
+hasItems: true
+hasLiquids: true
+consumes: {
+power: 0.3
+liquid: water/0.2
+}
+category: crafting
+requirements: [
+lead/45
+silicon/30
+graphite/35
+]
+size: 2
+research: mechanical-pump

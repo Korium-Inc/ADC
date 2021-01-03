@@ -1,0 +1,29 @@
+health: 900
+outputItem: thorium/6
+requirements: [
+lead/120
+titanium/100
+silicon/140
+graphite/130
+thorium/100
+]
+consumes: {
+power: 3.5
+liquid: slag/0.08
+items: {
+items: [
+copper/4
+lead/5
+titanium/6
+]
+}
+}
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 75
+itemCapacity: 20
+craftEffect: smeltsmoke
+category: crafting
+research: silicon-crucible
+size: 3

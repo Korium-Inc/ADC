@@ -1,0 +1,32 @@
+type: PowerTurret
+health: 1100
+size: 2
+category: turret
+research: beam-IT
+requirements: [
+lead/160
+graphite/120
+titanium/90
+silicon/80
+thorium/60
+]
+range: 150
+shootType: {
+type: LightningBulletType
+damage: 40
+lightningLength: 40
+collidesAir: true
+lightningColor: FFF000
+}
+reloadTime: 15
+alternate: true
+shots: 2
+shootCone: 45
+rotateSpeed: 7
+powerUse: 8
+targetGround: true
+targetAir: true
+shootEffect: lightningShoot
+heatColor: FF8900
+recoilAmount: 2
+shootSound: spark

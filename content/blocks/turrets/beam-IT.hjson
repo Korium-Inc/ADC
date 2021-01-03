@@ -1,0 +1,126 @@
+type: ItemTurret
+health: 950
+size: 2
+category: turret
+requirements: [
+lead/120
+graphite/80
+titanium/150
+silicon/75
+]
+research: parallax
+targetGround: true
+targetAir: true
+collidesGround: true
+collidesAir: true
+ammoTypes: {
+copper: {
+type: BasicBulletType
+width: 9
+height: 9
+lifetime: 30
+damage: 12
+speed: 7
+backColor: FFF000
+frontColor: FFF000
+status: burning
+}
+silicon: {
+type: BasicBulletType
+width: 13
+heigth: 13
+lifetime: 40
+homingPower: 1.5
+homingRange: 20
+damage: 10
+speed: 5
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+backColor: FFF000
+frontColor: FFF000
+status: blasted
+splashDamage: 10
+splashDamageRadius: 10
+}
+pyratite: {
+type: BasicBulletType
+width: 20
+height: 20
+damage: 20
+speed: 6
+lifetime: 50
+splashDamage: 20
+splashDamageRadius: 30
+backColor: FFF000
+frontColor: FFF000
+status: melting
+statusDuration: 70
+incendChance: 1.5
+incendAmount: 3
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+fragBullets: 4
+fragCone: 35
+fragBullet: {
+type: ArtilleryBulletType
+width: 15
+heigth: 15
+splashDamage: 20
+splashDamageRadius: 30
+speed: 5
+lifetime: 20
+backColor: FFF000
+frontColor: FFF000
+}
+}
+surge-alloy: {
+type: BasicBulletType
+width: 15
+heigth: 20
+lifetime: 60
+speed: 7
+damage: 30
+splashDamage: 10
+splashDamageRadius: 30
+backColor: FFF000
+frontColor: FFF000
+hitColor: FFF000
+lightningColor: FFF000
+lightning: 3
+lightningDamage: 5
+lightningLength: 10
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+status: shocked
+pierce: true
+pierceCap: 0.5
+fragBullets: 3
+fragCone: 35
+fragBullet: {
+type: BasicBulletType
+width: 10
+heigth: 15
+lifetime: 30
+speed: 6
+damage: 10
+status: blasted
+backColor: FFF000
+frontColor: FFF000
+splashDamage: 5
+splashDamageRadius: 10
+}
+}
+}
+range: 150
+reloadTime: 5
+ammoEjectBack: 3
+recoilAmount: 3
+spread: 4
+alternate: true
+shots: 2
+shootCone: 12
+ammoUseEffect: casing2
+shootSound: shootBig
+powerUse: 3
+
+
