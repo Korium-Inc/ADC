@@ -1,5 +1,0 @@
-cd storage/emulated/0/ADC
-git init
-git commit -am "Initial commit"
-git remote add origin "https://github.com/3Snake3/ADC.git"
-git push origin master
